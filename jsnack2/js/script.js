@@ -84,6 +84,6 @@ function calcTotWeight(array) {
 }
 
 calcTotWeight(zucchineBig);
-resultBig.innerText = totWeight;
+resultBig.innerText = 'Tot Weight Big: ' + totWeight;
 calcTotWeight(zucchineSmall);
-resultSmall.innerText = totWeight;
+resultSmall.innerText = 'Tot Weight Small: ' + totWeight;
